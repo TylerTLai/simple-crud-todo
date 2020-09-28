@@ -1,0 +1,19 @@
+{
+  "name": "simple-crud-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "latest": "^0.2.0",
+    "mongodb": "^3.6.2",
+    "node": "^14.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "watch": "nodemon server",
+    "start": "node server"
+  }
+}
